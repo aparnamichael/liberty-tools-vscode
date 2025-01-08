@@ -28,7 +28,7 @@ OS=$(uname -s)
 
 main() {
 
-    setVscodeVersionToTest
+    # setVscodeVersionToTest
     chmod -R 777 src/test/resources/maven
     chmod -R 777 src/test/resources/gradle
     if [ $TYPE == "BUILD" ]; then
